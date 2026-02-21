@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import stockLogo from '../assets/stock-logo.png';
+import stockLogo from '../assets/stock_logo.png';
 
 const Landing: React.FC = () => {
   return (
