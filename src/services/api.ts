@@ -5,7 +5,7 @@ import type { AxiosInstance, AxiosError } from 'axios';
 const API: AxiosInstance = axios.create({
     // Make sure this matches your Spring Boot server port
     baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api',
-    timeout: 10000,
+    timeout: 20000,
     headers: {
         'Content-Type': 'application/json',
     },
