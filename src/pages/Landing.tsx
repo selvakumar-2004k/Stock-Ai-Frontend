@@ -119,7 +119,7 @@ const Landing: React.FC = () => {
       {/* Footer */}
       <footer className="border-t border-slate-700 py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center text-slate-400">
-          <p>&copy; 2024 PortfolioAI. All rights reserved.</p>
+          <p>&copy; 2026 PortfolioAI. All rights reserved.</p>
         </div>
       </footer>
     </div>

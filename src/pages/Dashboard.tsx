@@ -73,8 +73,8 @@ const Dashboard: React.FC = () => {
     const gainPercent = totalInvestment > 0 ? (totalGain / totalInvestment) * 100 : 0;
     
     // Simulate day change (in real app, this would come from API)
-    const dayChange = totalValue * 0.015; // 1.5% example
-    const dayChangePercent = 1.5;
+    const dayChange = totalValue * 0.0; // 1.5% example
+    const dayChangePercent = totalValue > 0 ? (dayChange / totalValue) * 100 : 0;
     
     return {
       totalValue,
